@@ -60,7 +60,7 @@ def main():
   malist = [4,5,2,7,8,1,3]
   selSort(malist)
   print(malist)
-  madlist = [4,5,2,7,8,1,3,12,35,45,23,13,16]
+  madlist = [3,1,4,1,5,9,2,6]
   mergeSort(madlist)
   print(madlist)
 main()

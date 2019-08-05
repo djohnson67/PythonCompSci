@@ -4,6 +4,7 @@ GB data transfer out (Europe)
 GB - next 40 TB / month data transfer out
 GB - next 100 TB / month data transfer out
 GB - next 150 TB / month data transfer out
+GB - greater than 150 TB / month data transfer out
 GB - first 10 TB / month data transfer out beyond the global free tier
 GB - first 50 TB / month of storage used
 GB - next 450 TB / month of storage used

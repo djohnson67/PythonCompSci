@@ -1,11 +1,12 @@
 import re
 import csv
+#import datetime
 
 def getFile(fileName, attrib):
   return open(fileName, attrib)
 
 def main():
-  csv.register_dialect('myDialect', delimiter=',', quoting=csv.QUOTE_NONE)
+  #start = datetime.datetime.now()
   filterFile =getFile('Data/filters.txt','rt')
   filterString = []
 
@@ -42,9 +43,11 @@ def main():
   
   awsInFile.close()
   fout.close()
-
+  #finish = datetime.datetime.now()  
+  #print(finish-start)
   print("Total Lines Read",awsInfileCount)
   print("Total Lines Wrote",awsOutfilecount)
+
 
 if __name__ == '__main__':
   main()
